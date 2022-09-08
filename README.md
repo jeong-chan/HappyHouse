@@ -6,6 +6,7 @@
 
 ### 0. 메인페이지
     - HappyHouse Project 메인페이지입니다.
+    - *그림과 다르게 일부 수정 되었습니다.
 ![Main](https://user-images.githubusercontent.com/77624879/189170854-d33d2592-36dd-4c5e-b8ac-f63bb97a2d59.png)
 
 #### 0-1. Summary
@@ -48,41 +49,84 @@
 ![QnaDelete](https://user-images.githubusercontent.com/77624879/189170879-a0274ade-7e8e-403f-b0de-08d5f426c260.png)
 ![QnaAfterDelete](https://user-images.githubusercontent.com/77624879/189170867-8f2412ee-cbd1-429d-865e-9548216b4f93.png)
 
-### 2. 로그인/회원가입 & 회원정보
+### 2. 공지사항
+    - 공지사항은 관리자만 작성할 수 있으며, 공지사항에 댓글 또한 관리자만 삭제가 가능합니다.
+    
+#### 2-1. 공지사항 게시판 출력
+    - DataBase에 저장된 공지사항 게시글을 출력합니다.
+![image](https://user-images.githubusercontent.com/77624879/189174729-088f90c5-3d65-4ea3-9f3b-0c4801709e97.png)
 
-#### 2-1. 회원가입
+#### 2-2. 공지사항 확인, 댓글 입력 및 삭제
+    - 공지사항을 확인하고, 댓글 입력/ 자신이 입력한 댓글 삭제가 가능합니다.
+![image](https://user-images.githubusercontent.com/77624879/189175103-541df7b8-0d45-47c9-bbd6-de4eb92b1b3d.png)
+
+#### 2-3. 공지사항 글 등록
+    - 관리자 계정만 공지사항에 글을 등록할 수 있습니다.
+![image](https://user-images.githubusercontent.com/77624879/189175234-ee60abf1-b32f-4474-8272-5efded1dadae.png)
+
+### 3. 로그인/회원가입 & 회원정보
+
+#### 3-1. 회원가입
     - 회원가입 form 작성 후, [SUBMIT] 버튼을 통해 회원가입을 할 수 있습니다.
     - [RESET] 버튼을 통해 회원가입 form을 초기화 할 수 있습니다.
 <img width="609" alt="2-0" src="https://user-images.githubusercontent.com/77624879/189170816-6ac878f0-2b51-4776-b9bf-255ddb188d09.png">
 
-#### 2-2. 로그인
+#### 3-2. 로그인
     - 아이디와 비밀번호로 로그인을 할 수 있습니다.
 ![2-1](https://user-images.githubusercontent.com/77624879/189170826-55d6c797-b5ab-4e50-a17b-d07740b22fdb.png)
 
-#### 2-3. 회원정보 조회
+#### 3-3. 회원정보 조회
     - [Profile] 메뉴를 통해 로그인할 사용자의 정보를 확인할 수 있습니다.
     - [EDIT] 버튼을 통해 회원정보 수정화면으로 전환할 수 있습니다.
 ![2-2](https://user-images.githubusercontent.com/77624879/189170829-10bdf865-9702-44f6-92e6-69084ac82ff9.png)
 
-#### 2-4. 회원정보 수정
+#### 3-4. 회원정보 수정
     - 아이디를 제외한 항목에 한해 회원정보를 수정할 수 있습니다.
     - 비밀번호 form 오른쪽의 [변경]버튼을 통해 비밀번호 변경을 위한 모달창을 띄울 수 있습니다.
 <img width="578" alt="2-3" src="https://user-images.githubusercontent.com/77624879/189170831-1d9d552e-64da-44b4-b6b3-e631550cb39d.png">
 
-#### 2-5. 비밀번호 변경
+#### 3-5. 비밀번호 변경
     - 비밀번호 변경을 위한 모달창입니다.
     - 현재 비밀번호와 새 비밀번호를 입력받아 현재 비밀번호가 일치할 경우 비밀번호를 변경할 수 있습니다.
 <img width="497" alt="2-4" src="https://user-images.githubusercontent.com/77624879/189170837-13ba6ad5-ce22-4c74-b9d2-e71d32738d0b.png">
 
-#### 2-6. 비밀번호 찾기
+#### 3-6. 비밀번호 찾기
     - 로그인 페이지의 [FORGET PASSWORD] 버튼을 통해 비밀번호 찾기을 위한 모달창을 띄울 수 있습니다.
     - 아이디를 통해 비밀번호를 찾을 수 있습니다.
 <img width="481" alt="2-5" src="https://user-images.githubusercontent.com/77624879/189170838-7d45dce8-8991-49a2-8dee-dc9f49030ca6.png">
 
-### 3. 아파트 매매가 조회 서비스
+#### 3-7. 즐겨찾는 매물 조회
+    - 마이페이지에서 자신이 즐겨찾기에 추가한 즐겨찾는 매물을 조회할 수 있습니다.
+![image](https://user-images.githubusercontent.com/77624879/189174188-14b109cc-c141-4c92-80e3-9ac28fa01acf.png)
+
+### 4. 아파트 매매가 조회 서비스
     - 메인페이지의 [Nav-Bar]-[House]를 통해 아파트 매매가 조회 서비스를 이용할 수 있습니다.
     - 현재 조회되는 아파트가 없는경우, 조회 내용이 없음을 알립니다.
     - 조회된 아파트를 선택한경우, 해당 아파트의 상세 정보를 확인할 수 있습니다.
-![HouseNoSearch](https://user-images.githubusercontent.com/77624879/189170841-197bb86b-32fd-4d14-b3e4-bd03820e7e49.png)
-![HouseSearch](https://user-images.githubusercontent.com/77624879/189170845-da300921-b8cc-4595-8a66-6cef497043e5.png)
 
+#### 4-1. 행정동별 아파트 조회
+    - 시/도, 구/군, 동/읍/면을 선택하여 해당 지역의 아파트 실거래가를 확인할 수 있습니다.
+    - 조회한 아파트를 클릭하여 아파트 실거래가를 확인할 수 있습니다.
+![image](https://user-images.githubusercontent.com/77624879/189172932-28f08c56-602d-4e10-8212-9e0575943250.png)
+![image](https://user-images.githubusercontent.com/77624879/189172986-fe38c131-1f25-4d07-98be-dd866a73b68f.png)
+
+#### 4-2. 마커 주변 아파트 검색
+    - 지도에 원하는 지역을 선택하여 마커를 표기하고, 마커 범위 내의 아파트를 조회하고, 즐겨찾기에 추가할 수 있습니다.
+    - 조회한 아파트를 클릭하여 아파트 실거래가를 확인할 수 있습니다.
+![image](https://user-images.githubusercontent.com/77624879/189173230-d49c4366-1b0f-4ff5-9903-312a9aeede83.png)
+![image](https://user-images.githubusercontent.com/77624879/189173276-8e12d58d-8514-4a83-a333-7f3cdce7f47f.png)
+
+### 5. 주변상권 조회
+    - 아파트 실거래가 검색 후, 출력된 리스트의 아이콘을 통해 해당 아파트 주변상권 정보를 조회할 수 있습니다.
+![image](https://user-images.githubusercontent.com/77624879/189173410-e93743fc-cd28-4ba5-b1c1-5025240afd83.png)
+
+### 6. 행정동별 주차장 조회
+    - 시/도, 구/군, 동/읍/면을 선택하여 해당 지역의 주차장과 주차장 세부정보를 확인할 수 있습니다.
+![image](https://user-images.githubusercontent.com/77624879/189173847-9a0f787e-a98e-4da2-9551-a16b87a5c51e.png)
+![image](https://user-images.githubusercontent.com/77624879/189173908-871635e4-61a7-4e97-a39f-5ae8083e9132.png)
+
+## ERD
+![image](https://user-images.githubusercontent.com/77624879/189175331-f47babce-0e30-4b5b-8d64-4be7d1ee769d.png)
+
+## Class Diagram
+![image](https://user-images.githubusercontent.com/77624879/189175746-47d2e8d6-b794-4e66-a8ac-893a1924ed6b.png)
